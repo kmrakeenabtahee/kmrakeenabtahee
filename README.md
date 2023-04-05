@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @kmrakeenabtahee
 - I am currently studying Bacehlor Of IT majoring in data science and software technology at Macquarie University
-- I am currently learning the basics of data science and python
-- I also currently know an intermediate level of Java and have worked on a website as a website manager before.
+- I am currently learning advanced languages of data science and software engineering
+- I also currently know an advanced level of Java, Python, MySQL, NoSQL such as Studio3T and Azure 
+- I have also worked on a website as a website manager before.
 - Contact me @ rakeenabtahee@gmail.com OR kmrakeen.abtahee@students.mq.edu.au
 
 <!---

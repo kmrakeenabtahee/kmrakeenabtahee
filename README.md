@@ -1,4 +1,4 @@
-👋 Hey! I'm a Software Engineer passionate about building scalable, robust backend solutions, with expertise spanning Full-stack Development, Object-Oriented Programming (OOP), and Functional Programming.
+👋 Hey! I'm a Software Engineer passionate about building scalable, robust backend solutions, with expertise spanning Full-stack Development, AI/ML Engineering, Object-Oriented Programming (OOP), and Functional Programming.
 
 Currently at Ingenuity Partners, involved with a high functioning team in the development of a FinTech product, crafting intricate integrations, and streamline complex workflows.
 I thrive on solving challenging problems, leveraging my sharp eye for intricate details and my deep appreciation for clean, efficient, and maintainable code.

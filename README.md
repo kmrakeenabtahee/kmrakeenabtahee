@@ -1,34 +1,68 @@
-👋 Hey! I'm a Software Engineer passionate about building scalable, robust backend solutions, with expertise spanning Full-stack Development, AI/ML Engineering, Object-Oriented Programming (OOP), and Functional Programming.
+# K M Rakeen Abtahee
 
-Currently at Ingenuity Partners, involved with a high functioning team in the development of a FinTech product, crafting intricate integrations, and streamline complex workflows.
-I thrive on solving challenging problems, leveraging my sharp eye for intricate details and my deep appreciation for clean, efficient, and maintainable code.
+Full-stack engineer in Sydney. I work inside client teams — new codebase, new
+business, useful from the first week.
 
-🚀 What I bring to the table:
+**[rakeenabtahee.com](https://rakeenabtahee.com)** ·
+[LinkedIn](https://www.linkedin.com/in/rakeena/) ·
+rakeenabtahee@gmail.com
 
-    - Backend & Full-stack Development: Specialized in architecting powerful backend solutions
-    complemented by thoughtful frontend integrations.
-    - Programming Paradigms: Strong advocate and practitioner of OOP and Functional Programming.
-    - Cloud & Scalability: Honing my skills in cloud engineering, to build highly scalable systems via Workato and AWS.
-    - AI & Machine Learning: Passionately exploring, learning, and applying AI/ML principles in personal projects,
-    aiming to blend intelligent systems into everyday solutions.
-    - Salesforce Development: Experienced in developing Salesforce solutions and integrations,
-    ensuring seamless enterprise-level operations.
+---
 
-🎯 Core Strengths:
+### What I've shipped
 
-    - Exceptional analytical thinking and problem-solving skills.
-    - Meticulous attention to detail in both architecture and implementation.
-    - Continuous drive to learn and evolve, especially in Cloud and AI/ML domains.
+Associate Software Developer at **Ingenuity Partners**, a Salesforce and
+full-stack consultancy where engineers embed directly with client teams. Six
+engagements in two years.
 
-🌎 When not coding:
+- **Migrated 1.5M records** off a legacy CRM, solo, on a platform I hadn't
+  used before — Python migration tooling, a FastAPI validation service and a
+  Next.js internal dashboard. No loss of service.
+- **Built an LLM benchmarking tool** nobody asked for. Now used by 30+
+  engineers and delivery leads; prompt iteration went from two hours to under
+  thirty minutes.
+- **Built a retrieval pipeline over our Confluence corpus** that answers which
+  engineers have delivered work in a given domain — a question the documents
+  never answer directly.
+- **Automated claim data extraction** for a national health insurer with an
+  OCR pipeline. Manual data entry down over 80%.
 
-    - Enjoying tactical FPS gaming, keeping my strategic thinking sharp.
-    - Solving Rubik's cubes to relax and sharpen my algorithmic mindset.
+---
 
-I'm always excited to connect with fellow tech enthusiasts, software engineers, recruiters from innovative tech companies, or anyone eager to build the future together.
+### Stack
 
-Let’s make something incredible! 🚀
+| | |
+|---|---|
+| **Daily** | TypeScript · Python · React · Next.js · FastAPI · Node.js |
+| **AI** | RAG pipelines · Claude API · Model Context Protocol · LangGraph · vision extraction |
+| **Platform** | AWS (Lambda, API Gateway, S3) · Docker · Salesforce (Apex, LWC) · Workato |
+| **Also real** | Java · C#/.NET · Dart · SQL · Scala · PostgreSQL · SQLite |
+
+---
+
+### Things I built with no justification whatsoever
+
+- A **jellyfish aquarium** in Canvas 2D, then rebuilt in Three.js with GLSL
+  shaders written from scratch. It does nothing. It's the best-looking thing
+  I've made.
+- A **Clojure-inspired interpreter** in Scala — parser, evaluator, REPL —
+  because I wanted to know how evaluation actually works. It's ported to
+  TypeScript and running on my site; go and type into it.
+- **Docket**, a receipt tracker that classifies expenses against ATO deduction
+  rules. Never published to a store. I sideload it onto my own phone and use it.
+
+That's roughly how I learn things: pick something I don't understand, build the
+smallest version of it, then keep going until it's interesting.
+
+---
+
+### A note on this profile
+
+Most of my commit history lives in Bitbucket through client work, so the
+contribution graph here understates the output. The repos that *are* public are
+the ones where you can read the source and ask me why I did it that way.
+
 <!---
-kmrakeenabtahee/kmrakeenabtahee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+kmrakeenabtahee/kmrakeenabtahee is a ✨ special ✨ repository because its
+`README.md` (this file) appears on your GitHub profile.
 --->

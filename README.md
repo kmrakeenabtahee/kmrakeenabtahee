@@ -1,5 +1,7 @@
 ## Hi, I'm Rakeen 👋
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1200&color=58A6FF&vCenter=true&width=520&lines=Full-stack+engineer+in+Sydney;I+build+products+end+to+end;and+the+AI+systems+inside+them;Agents+%C2%B7+RAG+%C2%B7+Evals+%C2%B7+Extraction)](https://rakeenabtahee.com)
+
 I'm a full-stack engineer in Sydney. I build web products end to end, and increasingly the AI systems that sit inside them: retrieval, agents, evaluation, extraction.
 
 I've spent 3+ years shipping software across healthcare, insurance, mobility and enterprise teams, usually arriving in a codebase I'd never seen and leaving it with something in production. That's taught me to read code before writing it, ask about the business before the schema, and keep things simple enough that the next person can own them.

@@ -40,12 +40,14 @@ I've spent 3+ years shipping software across healthcare, insurance, mobility and
 
 ### Toolbox
 
-**Languages:** TypeScript, Python, Java, Scala, C#, Dart, SQL
-**Frontend:** React, Next.js, Tailwind, Three.js, React Native, Flutter
-**Backend:** Node.js, FastAPI, PostgreSQL, SQLite, DuckDB
-**AI:** Claude API, MCP, LangGraph, RAG, vision models, evals
-**Cloud & delivery:** AWS (Lambda, API Gateway, S3), GCP, Docker, GitHub Actions
-**Enterprise platforms:** Salesforce (Apex, LWC), Power Platform, Workato, Zoho
+| Area | Tools |
+| --- | --- |
+| **Languages** | `TypeScript` `Python` `Java` `Scala` `C#` `Dart` `SQL` |
+| **Frontend** | `React` `Next.js` `Tailwind` `Three.js` `React Native` `Flutter` |
+| **Backend** | `Node.js` `FastAPI` `PostgreSQL` `SQLite` `DuckDB` |
+| **AI** | `Claude API` `MCP` `LangGraph` `RAG` `Vision models` `Evals` |
+| **Cloud & delivery** | `AWS Lambda` `API Gateway` `S3` `GCP` `Docker` `GitHub Actions` |
+| **Enterprise platforms** | `Salesforce (Apex, LWC)` `Power Platform` `Workato` `Zoho` |
 
 ---
 

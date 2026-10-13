@@ -22,25 +22,88 @@ I've spent 3+ years shipping software across healthcare, insurance, mobility and
 
 ---
 
-### Selected work
+### Some of the things I've built
 
-| Project | What it does | Built with |
-| --- | --- | --- |
-| **PromptBench** | Benchmarks prompts against deterministic assertions so teams can iterate on LLM behaviour with evidence. Adopted by 30+ engineers; cut iteration from ~2 hours to under 30 minutes. | Node.js · MCP · React |
-| **Compliance reviewer** | A multi-agent system that reviews documents against regulatory requirements and explains where they fall short. | LangGraph · FastAPI · Next.js |
-| **Expertise search** | RAG over an internal Confluence corpus that infers who has delivered work in a given domain, something no single document states. | Python · embeddings · Claude API |
-| **Claims OCR pipeline** | Extracts structured data from health insurance claims. Reduced manual entry by over 80%. | FastAPI · async Python workers |
-| **CRM migration** | Moved 1.5M records off a legacy system with my team, with validation and reconciliation at every step and no loss of service. | Python ETL · FastAPI · Next.js |
-| **Docket** | A mobile app that photographs receipts and classifies them against Australian tax deduction rules. I use it every week. | React Native · Expo · Claude Vision · SQLite |
-| **Lisp interpreter** | A Clojure-flavoured language with a parser, evaluator and REPL. Runs live on my website. | Scala → TypeScript |
-| **rakeenabtahee.com** | My portfolio, with a live REPL, WebGL shaders and a force-directed graph written without d3. | Next.js · Three.js · GLSL |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/promptbench.gif" alt="PromptBench scoring a prompt run" width="100%">
+      <p><b>PromptBench</b></p>
+      <p>Benchmarks prompts against deterministic assertions so teams iterate on LLM behaviour with evidence, not vibes. Adopted by 30+ engineers; iteration went from ~2 hours to under 30 minutes.</p>
+      <p><code>Node.js</code> <code>MCP</code> <code>React</code></p>
+      <br>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/docket.gif" alt="Docket capturing and classifying a receipt" width="100%">
+      <p><b>Docket</b></p>
+      <p>Photograph a receipt, and Claude Vision reads it and classifies it against Australian tax deduction rules. Not on any store. I sideload it and use it every week.</p>
+      <p><code>React Native</code> <code>Expo</code> <code>Claude Vision</code> <code>SQLite</code></p>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/repl.gif" alt="Typing expressions into the Lisp REPL" width="100%">
+      <p><b>Lisp interpreter</b></p>
+      <p>A Clojure-flavoured language with its own parser, evaluator and REPL, written in Scala and ported to TypeScript. <a href="https://rakeenabtahee.com">Try it live on my site.</a></p>
+      <p><code>Scala</code> <code>TypeScript</code></p>
+      <br>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/jellyfish.gif" alt="Jellyfish aquarium rendered with GLSL shaders" width="100%">
+      <p><b>Jellyfish aquarium</b></p>
+      <p>Started in Canvas 2D, rebuilt in Three.js with GLSL shaders written from scratch. It has no purpose. It's the best-looking thing I've made.</p>
+      <p><code>Three.js</code> <code>GLSL</code> <code>WebGL</code></p>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/site.gif" alt="Tour of rakeenabtahee.com" width="100%">
+      <p><b>rakeenabtahee.com</b></p>
+      <p>My portfolio, built from scratch: a live REPL, interactive WebGL shaders, a command palette and a force-directed graph written without d3.</p>
+      <p><code>Next.js</code> <code>React</code> <code>Three.js</code></p>
+      <br>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/montecarlo.gif" alt="Monte Carlo simulation paths" width="100%">
+      <p><b>Monte Carlo simulator</b></p>
+      <p>Sentiment-adjusted Monte Carlo simulation for long-only equity portfolios, part of a personal quant research stack.</p>
+      <p><code>Python</code> <code>DuckDB</code> <code>Parquet</code></p>
+      <br>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### Currently tinkering with
+### How PromptBench works
 
-- A **quantitative research stack** for long-only equity strategies: DuckDB and Parquet for data, plus a sentiment-adjusted Monte Carlo simulator.
-- **Docket v2**, with gallery import and smarter categorisation.
+Most LLM eval tools need an API key and a bill. PromptBench doesn't call a model at all: the model you're already chatting with generates the outputs, and the server only scores them.
+
+```mermaid
+flowchart LR
+    A["Engineer writes<br/>a prompt"] --> B["Claude generates<br/>outputs in chat"]
+    B -->|"MCP"| C["PromptBench server<br/>(Node.js)"]
+    C --> D{"Deterministic<br/>assertions"}
+    D -->|"pass / fail"| E["Scores"]
+    E --> F["React dashboard"]
+    F -->|"tweak and rerun"| A
+```
+
+---
+
+### In production
+
+Work I've shipped inside client and company teams. The code is private, so here's what it did.
+
+| | What it did | Built with |
+| --- | --- | --- |
+| **Compliance reviewer** | Multi-agent system that reviews documents against regulatory requirements | `LangGraph` `FastAPI` `Next.js` |
+| **Expertise search** | RAG over a Confluence corpus that infers who has delivered work in a domain | `Python` `RAG` `Claude API` |
+| **Claims OCR pipeline** | Structured extraction from health insurance claims; manual entry down 80%+ | `FastAPI` `Async Python` |
+| **CRM migration** | 1.5M records moved off a legacy system with my team, no loss of service | `Python ETL` `FastAPI` `Next.js` |
+| **Test case generator** | Turns Jira tickets into test cases automatically | `AWS Lambda` `LLMs` |
 
 ---
 
